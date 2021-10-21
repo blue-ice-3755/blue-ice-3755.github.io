@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+中国象棋 - in html5
+===========
 
-You can use the [editor on GitHub](https://github.com/blue-ice-3755/blue-ice-3755.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+中国象棋 - in html5是一款使用html5 canvas开发的开源小游戏，不依赖任何类库，不依赖任何后台程序，全部原生Javascript进行AI计算，欢迎广大业内同行多多交流指正，共同完善。
 
-```markdown
-Syntax highlighted code block
+##特点
 
-# Header 1
-## Header 2
-### Header 3
+* 全部使用Javascript完成AI人工智能计算，不依赖任何后台程序
+* 不依赖任何类库，全部原生Javascript，使用html5 canvas.
+* 实现中不涉及任何浏览器特性，所以不存在浏览器兼容性问题.
+* 代码结构极其简洁明了，你可以轻易的阅读，修改成自己版本.
 
-- Bulleted
-- List
+##Change Log
+### v1.5.1
+* 修复BUG
 
-1. Numbered
-2. List
+### v1.5.0
+* 大幅度修改UI，增加风格选择
 
-**Bold** and _Italic_ and `Code` text
+### v1.0.3
+* 增加历史表，提高AI计算效率
 
-[Link](url) and ![Image](src)
-```
+### v1.0.2
+* 修复了AI计算过深的资源耗尽问题
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/blue-ice-3755/blue-ice-3755.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### v1.0.1
+* 修复了一些情况下悔棋出错的问题
+* 修复了长将不死的问题
